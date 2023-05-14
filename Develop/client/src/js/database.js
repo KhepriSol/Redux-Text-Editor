@@ -26,7 +26,7 @@ export const putDb = async (content)  => {
  
     // create a connection to the desired database and version, create a new transaction with the necessary privileges, open the object store, and use the .getAll() method to retrieve all data. 
   export const getDb = async () => {
-    console.log('GET from the database');
+    console.log('GET DataBase');
     const contactDb = await openDB('jate', 1);
     const tx = contactDb.transaction('jate', 'readonly');
     const store = tx.objectStore('jate');
