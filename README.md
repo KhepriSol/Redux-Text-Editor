@@ -18,8 +18,5 @@ The application uses next-gen JavaScript features to provide a modern user exper
 ## Install Button and Desktop Icon
 The application has an Install button that allows users to download the web application as an icon on their desktop.
 
-## Service Worker
-The application uses workbox to register a service worker. When the application is loaded, the static assets are pre-cached, along with subsequent pages and static assets.
-
 ## Deployment
 The application is deployed to Heroku using proper build scripts for a webpack application.
