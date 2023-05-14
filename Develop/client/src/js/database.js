@@ -35,3 +35,5 @@ export const putDb = async (content)  => {
     console.log('result.value', result);
     return result?.value;
   };
+
+  initdb();
