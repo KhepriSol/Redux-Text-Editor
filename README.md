@@ -1,6 +1,6 @@
 # Text Editor Web Application
 This is a web-based text editor application with client-server architecture, built using modern web technologies.
-
+![screenshot](assets/Capture.PNG)
 ## Installation and Setup
 Clone the repository to your local machine.
 Install the necessary dependencies by running npm install from the root directory.
