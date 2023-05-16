@@ -2,14 +2,16 @@
 
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 
-var _require = require('workbox-webpack-plugin'),
-    InjectManifest = _require.InjectManifest;
-
 var WebpackPwaManifest = require('webpack-pwa-manifest');
 
 var path = require('path');
 
-module.exports = function () {
+var _require = require('workbox-webpack-plugin'),
+    InjectManifest = _require.InjectManifest; // TODO: Add and configure workbox plugins for a service worker and manifest file.
+// TODO: Add CSS loaders and babel to webpack.
+
+
+module.exports = function getConfig() {
   return {
     mode: 'development',
     entry: {
